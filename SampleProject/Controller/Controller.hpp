@@ -21,6 +21,7 @@ public:
     //Externally visible.
     Controller();
     void start();
+    void consoleOutput();
 };
 
 #endif /* Controller_hpp */

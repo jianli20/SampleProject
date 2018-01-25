@@ -35,7 +35,22 @@ void Controller :: start()
     
     double Decimal[1] = {1.23};
     cout << Decimal[0] << endl;
+    
+    consoleOutput();
 }
 
+void Controller :: consoleOutput()
+{
+    string name = "Jian Li";
+    cout << name << endl;
+    
+    for (int i = 0; i < 32 ; i ++ )
+        cout << i << endl;
+    
+    cout << &name << endl;
+    
+    cout << "Hi" << " good morning" << " how are you?" << endl;
+    
+}
 
 
