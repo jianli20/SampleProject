@@ -7,6 +7,8 @@
 //
 
 #include "Controller.hpp"
+#include <vector>
+
 
 using namespace std;
 
@@ -37,6 +39,7 @@ void Controller :: start()
     cout << Decimal[0] << endl;
     
     consoleOutput();
+    vectorMethod();
 }
 
 void Controller :: consoleOutput()
@@ -53,4 +56,26 @@ void Controller :: consoleOutput()
     
 }
 
+void Controller :: vectorMethod()
+{
+    vector<int> numberVector;
+    numberVector.push_back(1);
+    numberVector.push_back(2);
+    numberVector.push_back(3);
+    
+    
+    for (int i = 0; i < 3; i++)
+    {
+        cout << numberVector.at(i) << endl;
+    }
+    
+    vector<string> wordVector;
+    wordVector.push_back("hi");
+    wordVector.push_back("i like blue");
+    
+    for (int i = 0; i < 2; i++)
+    {
+        cout << wordVector.at(i) << endl;
+    }
+}
 

@@ -22,6 +22,7 @@ public:
     Controller();
     void start();
     void consoleOutput();
+    void vectorMethod();
 };
 
 #endif /* Controller_hpp */
